@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>BeyGock Management</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<style>
+body {font-family:'Roboto',sans-serif;margin:0;padding:0;line-height:1.6;background:#f4f6f8;color:#023e8a;}
+header {background:#0077b6;color:white;padding:70px 20px;text-align:center;position:relative;}
+header img {max-width:150px;margin-bottom:20px;}
+header h1 {margin:10px 0 10px;font-size:3em;}
+header p {margin:10px 0 25px;font-size:1.2em;}
+.btn {display:inline-block;padding:15px 35px;background:#00b4d8;color:white;text-decoration:none;font-weight:bold;border-radius:50px;transition:0.3s;}
+.btn:hover {background:#0096c7;}
+section {padding:60px 20px;max-width:1100px;margin:auto;}
+h2 {color:#0077b6;margin-bottom:40px;text-align:center;font-size:2em;}
+.paket {width:100%;border-collapse:collapse;margin-bottom:40px;box-shadow:0 4px 15px rgba(0,0,0,0.1);}
+.paket th,.paket td {border:1px solid #ddd;padding:20px;text-align:center;}
+.paket th {background:#0077b6;color:white;font-size:1.1em;}
+.paket tr:hover {background:#e0f7fa;transition:0.3s;}
+.keunggulan{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:30px;text-align:center;}
+.keunggulan div{background:white;padding:25px;border-radius:15px;box-shadow:0 4px 15px rgba(0,0,0,0.1);transition:0.3s;opacity:0;transform:translateY(20px);}
+.keunggulan div.visible{opacity:1;transform:translateY(0);}
+.keunggulan div:hover{transform:translateY(-5px) scale(1.02);box-shadow:0 8px 20px rgba(0,0,0,0.15);}
+.social-icons i{margin-right:8px;color:#0077b6;}
+footer{background:#023e8a;color:white;text-align:center;padding:25px;}
+.sticky-btn{position:fixed;bottom:20px;right:20px;z-index:999;}
+@media(max-width:600px){.keunggulan{grid-template-columns:1fr;}}
+.fade-in{opacity:0;transform:translateY(20px);animation:fadeInAnim 1s forwards;}
+@keyframes fadeInAnim{to{opacity:1;transform:translateY(0);}}
+</style>
+</head>
+<body>
+
+<header class="fade-in">
+  <img src="logobv.png" alt="BeyGock Management Logo">
+  <h1>BeyGock Management</h1>
+  <p>Social Media, Branding & Growth Agency</p>
+  <p>Buat Akun Profesional & Jangkau Pelanggan Baru dalam 1 Bulan!</p>
+  <a class="btn" href="https://wa.me/6289607633666" target="_blank">Chat Sekarang → 089607633666</a>
+</header>
+
+<section class="fade-in">
+  <h2>Tentang Layanan</h2>
+  <p style="text-align:center; max-width:800px; margin:auto;">Kami membantu usaha Anda memiliki akun TikTok, Instagram, Facebook, dan YouTube profesional, lengkap dengan branding, konten, dan growth organik. Semua akun dibuat atas nama Anda, siap menjadi official account.</p>
+</section>
+
+<section class="fade-in">
+  <h2>Paket Layanan</h2>
+  <table class="paket">
+    <tr>
+      <th>Paket</th>
+      <th>Platform</th>
+      <th>Durasi Kontrol</th>
+      <th>Layanan</th>
+      <th>Harga (IDR)</th>
+    </tr>
+    <tr>
+      <td>Starter</td>
+      <td><i class="fab fa-tiktok social-icons"></i><i class="fab fa-instagram social-icons"></i><i class="fab fa-facebook social-icons"></i><i class="fab fa-youtube social-icons"></i></td>
+      <td>1 bulan</td>
+      <td>Branding + setup + konten 1 minggu + admin ringan</td>
+      <td>450.000</td>
+    </tr>
+    <tr>
+      <td>Growth</td>
+      <td><i class="fab fa-tiktok social-icons"></i><i class="fab fa-instagram social-icons"></i><i class="fab fa-facebook social-icons"></i><i class="fab fa-youtube social-icons"></i></td>
+      <td>1 bulan</td>
+      <td>Branding + setup + konten 1 minggu + optimasi & engagement tambahan + admin 1 bulan</td>
+      <td>600.000</td>
+    </tr>
+    <tr>
+      <td>Pro / Premium</td>
+      <td><i class="fab fa-tiktok social-icons"></i><i class="fab fa-instagram social-icons"></i><i class="fab fa-facebook social-icons"></i><i class="fab fa-youtube social-icons"></i></td>
+      <td>1 bulan</td>
+      <td>Branding + setup + konten lengkap + full optimasi + laporan & panduan lanjutan + admin kontrol</td>
+      <td>750.000</td>
+    </tr>
+  </table>
+</section>
+
+<section>
+  <h2>Keunggulan Layanan</h2>
+  <div class="keunggulan">
+    <div>✅ Akun profesional & saling terhubung</div>
+    <div>✅ Target growth organik ±200 follower/akun per minggu</div>
+    <div>✅ Riset nama & branding untuk usaha Anda</div>
+    <div>✅ Jangkauan maksimal & pelanggan baru</div>
+    <div>✅ Admin & kontrol 1 bulan</div>
+  </div>
+</section>
+
+<section style="text-align:center;" class="fade-in">
+  <a class="btn" href="https://wa.me/6289607633666" target="_blank">Chat Sekarang → 089607633666</a>
+</section>
+
+<a class="btn sticky-btn" href="https://wa.me/6289607633666" target="_blank">Chat WA</a>
+
+<footer>
+  &copy; 2025 BeyGock Management | Hubungi: 089607633666
+</footer>
+
+<script>
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if(entry.isIntersecting){ entry.target.classList.add('visible'); }
+  });
+},{threshold:0.2});
+document.querySelectorAll('.keunggulan div').forEach(div => {observer.observe(div);});
+</script>
+
+</body>
+</html>
